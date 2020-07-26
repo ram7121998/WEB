@@ -1,0 +1,62 @@
+body{
+	font-family: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+
+}
+/**HEADER**/
+#header-nav {
+
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+
+#logo-img{
+	background: url("Rlogo.png") no-repeat center;
+	width: 120px;
+	height: 120px;
+
+	margin: 1px 1px 5px 0px;
+}
+.navbar-brand {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 20px;
+}
+.navbar-brand p span { /* Star-K */
+   vertical-align: middle;
+}
+.menu-About{
+  border:2px solid black;
+}
+.pasta-img{
+  background: url("pasta.jpg") no-repeat center;
+  display: block
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+}
